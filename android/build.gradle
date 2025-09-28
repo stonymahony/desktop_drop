@@ -31,14 +31,12 @@ android {
     }
 
     defaultConfig {
-        minSdkVersion 26
         compileSdkVersion 35
         targetSdkVersion 35
         multiDexEnabled true
     }
 
     compileOptions {
-        coreLibraryDesugaringEnabled true
         sourceCompatibility JavaVersion.VERSION_17
         targetCompatibility JavaVersion.VERSION_17
     }
