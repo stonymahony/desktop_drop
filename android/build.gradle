@@ -30,9 +30,12 @@ android {
         namespace 'one.mixin.desktop.drop'
     }
 
-    minSdkVersion 26
-    compileSdkVersion 35
-    targetSdkVersion 35
+    defaultConfig {
+        minSdkVersion 26
+        compileSdkVersion 35
+        targetSdkVersion 35
+        multiDexEnabled true
+    }
 
     compileOptions {
         coreLibraryDesugaringEnabled true
